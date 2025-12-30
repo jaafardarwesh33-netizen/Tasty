@@ -43,9 +43,7 @@ header nav ul li a {
   font-size: 1.2rem;
   text-shadow: 0 0 6px black;
 }
-header nav ul li a:hover {
- text-decoration: underline;
-  transition: 0.5s;
+
 }
 .content {
   position: absolute;
@@ -72,3 +70,4 @@ header nav ul li a:hover {
   font-size: 1.5rem;
   margin-top: 1rem;
 }
+
