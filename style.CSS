@@ -44,7 +44,6 @@ header nav ul li a {
   text-shadow: 0 0 6px black;
 }
 
-}
 .content {
   position: absolute;
   top: 50%;
@@ -70,4 +69,5 @@ header nav ul li a {
   font-size: 1.5rem;
   margin-top: 1rem;
 }
+
 
