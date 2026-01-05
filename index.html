@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant,Jaafar Darwish</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant — Tasty</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header> 
-<h1 class="logo">Tasty</h1>
-<nav>
-<ul>
-    <li><a href="1.HTML">Home</a></li>
-    <li><a href="2.HTML">Menu</a></li>
-    <li><a href="3.HTML">About</a></li>
-    <li><a href="4.HTML">Contact</a></li>
-</ul>
-</nav>
-    </header>
+  <header>
+    <h1 class="logo">Tasty</h1>
 
-    <div class="content">
-        <h2>Welcome to Tasty Restaurant</h2>
-        <p>Experience the best culinary delights crafted with passion and served with love. Our menu features a variety of dishes to satisfy every palate.</p>
-        <a href="2.HTML" class="btn">Explore Our Menu</a>
-<ul class="numbers">
-    <button class="pro"><li id="btn1">1</li></button>
-    <button class="pro"><li id="btn2">2</li></button>
-</ul>
-<div class="wineFrame">
-<img  id="wineImage" class="wine" src="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg" alt="">
-</div>
+    <nav>
+      <ul>
+        <li><a href="1.html">Home</a></li>
+        <li><a href="2.html">Menu</a></li>
+        <li><a href="3.html">About</a></li>
+        <li><a href="4.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <section class="content">
+    <h2>Welcome to Tasty Restaurant</h2>
+
+    <p>
+      Experience the best culinary delights crafted with passion
+      and served with love. Our menu features a variety of dishes
+      to satisfy every palate.
+    </p>
+
+    <a href="2.html" class="btn">Explore Our Menu</a>
+
+    <div class="image-controls">
+      <button id="btn1" class="pro">Wine</button>
+      <button id="btn2" class="pro">Food</button>
     </div>
-    
 
-<script>
-  const wineImage = document.getElementById("wineImage");
-  const btn1 = document.getElementById("btn1");
-  const btn2 = document.getElementById("btn2");
+    <div class="wineFrame">
+      <img
+        id="wineImage"
+        class="wine"
+        src="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg"
+        alt="Restaurant item"
+      >
+    </div>
+  </section>
 
-  
-  btn1.addEventListener("click", () => {
-    wineImage.src = "https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg";
-  });
+  <script>
+    const wineImage = document.getElementById("wineImage");
+    const btn1 = document.getElementById("btn1");
+    const btn2 = document.getElementById("btn2");
 
-  btn2.addEventListener("click", () => {
-    wineImage.src = "food.jpg"; 
-  });
-</script>
+    btn1.addEventListener("click", () => {
+      wineImage.src =
+        "https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg";
+    });
 
-
-    
+    btn2.addEventListener("click", () => {
+      wineImage.src =
+        "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg";
+    });
+  </script>
 </body>
-
 </html>
+
+
